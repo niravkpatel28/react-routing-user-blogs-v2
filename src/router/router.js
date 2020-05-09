@@ -11,6 +11,7 @@ import Home from "../pages/home";
 // };
 
 // this file will contain all central routes
+// base name is for hosting the site. where basename on ghpages is public url
 const Router = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
