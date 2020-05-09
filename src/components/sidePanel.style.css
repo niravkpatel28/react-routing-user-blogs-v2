@@ -1,0 +1,12 @@
+.create-link {
+  /* text-decoration: underline; */
+  display: block;
+  text-align: justify;
+  text-decoration: none;
+}
+
+/* make the side panel stick */
+.sticky-panel {
+  position: sticky;
+  top: 0;
+}

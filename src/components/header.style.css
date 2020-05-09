@@ -1,0 +1,19 @@
+.navigation {
+  width: 100%;
+  display: block;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+
+.navigation li {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+.home-logo {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
