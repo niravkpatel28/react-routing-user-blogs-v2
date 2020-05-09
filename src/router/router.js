@@ -12,7 +12,7 @@ import Home from "../pages/home";
 
 // this file will contain all central routes
 const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/blogs/:id" exact render={(props) => <Blog {...props} />} />
